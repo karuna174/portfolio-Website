@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Karuna M Naik | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Karuna M Naik</h1>
+        <p>Aspiring Software Developer | CSE Student</p>
+    </header>
+
+    <!-- About Section -->
+    <section class ="edu" >
+        <div class="section-content">
+        <h2>About Me</h2>
+        <p>
+            I am a Computer Science Engineering student passionate about 
+            web development and machine learning. I aim to become a 
+            professional software developer.
+        </p>
+	</div>
+    </section>
+
+    <!-- Skills Section (With JavaScript) -->
+    <section class ="edu">
+        <h2>
+            Skills 
+            <span class="plus" onclick="showInput()">+</span>
+        </h2>
+
+        <div id="inputBox" style="display: none;">
+            <input type="text" id="skillInput" placeholder="Enter skill">
+            <button onclick="addSkill()">Add</button>
+        </div>
+
+        <div id="skillList">
+            <div>Python</div>
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>Data Structures</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section>
+	<div class ="card">
+          <h2>Projects</h2>
+            <h3>Soil-Based Crop Recommendation System</h3>
+            <p>
+                Machine Learning model that recommends crops 
+                based on soil nutrients.
+            </p>
+            <p><strong>Tech:</strong> Python, ML</p>
+ 
+
+            <h3>Portfolio Website</h3>
+            <p>Personal responsive website showcasing my skills.</p>
+            <p><strong>Tech:</strong> HTML, CSS</p>
+        </div>
+    </section>
+      
+    <!-- Education Section -->
+      <section class ="edu">
+        <h2>Education</h2>
+        <p>B.E in Computer Science Engineering</p>
+    </section>
+	
+    <!-- Contact Section -->
+    <section class= "edu">
+        <h2>Contact</h2>
+        <p>Email: your.email@gmail.com</p>
+        <p>GitHub: github.com/yourusername</p>
+        <p>LinkedIn: linkedin.com/in/yourprofile</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Karuna M Naik</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
